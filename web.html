@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/5200204c57.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="web.css">
+</head>
+<body>
+    <!--Hedar Start -->
+    <header>
+        <div class="logo">
+             <img src="./assets/logo3.png" alt="">
+        </div>
+        <div class="nav-bar" id="navbar">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+
+            <ul>
+                 <li><a href="#">Home</a></li>
+                 <li><a href="#">About</a></li>
+                 <li><a href="#">Services</a></li>
+                 <li><a href="#">Portfolio</a></li>
+                 <li><a href="#">Contcat</a></li>
+            </ul>
+          
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </header>
+    <!--Hedar End -->
+    <!--Frist page Start -->
+    <section class="page-1">
+        <div class="half-1">
+         <h1>This is Me !</h1>
+         <h2>I am professional web designer</h2>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Incidunt voluptatem dolores consequuntur eveniet dolore ipsum in architecto,<br> veritatis accusamus perspiciatis.</p>
+         <input type="button" value="Discover Now">
+         </div>
+        <div class="half-2">
+            <img class="sohag" src="./assets/sohag .jpg" alt="Sohag">
+        </div>
+    </section>
+    <!--Frist page End -->
+    <!--Second page Start -->
+    <section class="page-2">
+        <div class="img-2">
+            <img src="./assets/img-3.jpg" alt="">
+        </div>
+        <div class="about-me">
+           <h1>About Me</h1> 
+           <h3>Personal Details</h3>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Consequatur fuga sit commodi.<br> Quis, repudiandae eaque nobis voluptas quod sapiente illo<br> doloribus maiores quae. Ab, corrupti?</p>
+           <input type="button" value="Vew Full Details">
+        </div>
+    </section>
+    <!--Second page End -->
+    <!--3rd page Start -->
+    <section class="page-3">
+        <div class="my-offer">
+           <h1>My Offered Services</h1>
+           <p>At about this time of year, some months after new Year's resolutions have been made and kept, or made and neglected </p> 
+        </div>
+        <div class="services">
+            <div class="serv-1">
+                <div>
+                    <i class="fa-solid fa-chart-pie"></i>
+                    <h1>Web Desing</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae asperiores nihil id beatae! Provident, repellendus.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h1>Web Development</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum dolor earum veritatis ratione adipisci impedit?</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-camera-rotate"></i>
+                    <h1>Photography</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, et quasi aperiam quae suscipit ipsa!</p>
+                </div>
+            </div>
+            <div class="serv-2">
+                <div>
+                    <i class="fa-solid fa-clapperboard"></i>
+                   <h1>Clipping Path</h1>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio possimus perspiciatis exercitationem tenetur consequatur incidunt!</p> 
+                </div>
+                <div>
+                    <i class="fa-solid fa-mobile-screen-button"></i>
+                    <h1>Apps Interface</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi consequuntur sapiente temporibus fugit, at quam!</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-rocket"></i>
+                    <h1>Graphic Design</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel cumque natus ipsam suscipit veniam nesciunt!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--3rd page End -->
+    <!--4th page Start -->
+    <section class="page-4">
+        <div>
+           <h1>149</h1> 
+           <p class="s-1">Project Completed</p>
+        </div>
+        <div>
+            <h1>229</h1>
+           <p class="s-1">Happy Clients</p>
+        </div>
+        <div>
+            <h1>101</h1>
+            <p class="s-1">Cups of Coffe</p>
+        </div>
+        <div>
+            <h1>99</h1>
+            <p class="s-1">Real professionals</p>
+        </div>
+    </section>
+    <!--4th page End -->
+    
+    <!--Javascrip for toggel-->
+    <script>
+        var navLinks = document.getElementById("navbar")
+        function showMenu(){
+            navbar.style.right = "0px";
+        }
+        function hideMenu(){
+            navbar.style.right = "-200px";
+        }
+    </script>
+
+</body>
+</html>

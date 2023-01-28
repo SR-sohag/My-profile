@@ -1,0 +1,299 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+   width: 100%; 
+   height: 95px;  
+   position: fixed;
+   top: 0;
+   background-color: white;
+   }
+header div {
+    float: left;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo{
+    height: 100px;
+    width: 200px;
+    margin-left: 150px;
+    padding: 15px; 
+    padding-top: 5px;
+}
+header .nav-bar{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 150px;
+}
+header .nav-bar ul {
+     list-style: none;
+}
+    
+header .nav-bar ul li {
+    float: left;
+    padding-right: 40px;
+    padding-top: 20px;
+
+ }
+header .nav-bar ul li a{
+    text-decoration: none;
+    color: rgb(76, 216, 41);
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+}
+header .nav-bar ul li a:hover{
+    color: black;
+
+}
+/*Frist page Start*/
+.page-1{
+    background-color: antiquewhite;
+    width: 100%;
+    height: 455px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 120px;
+}
+.half-1, .half-2{
+    width: 50%;
+}
+.half-1{
+    margin-left: 230px;
+    margin-bottom: 120px;
+    
+}
+.half-2{
+    padding-right: 100x;
+}
+.half-2 .sohag{
+    max-width: 100%;
+    height: auto;
+    
+}
+.half-1 h1{
+    font-weight: normal;
+}
+.half-1 h2 {
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.half-1 p {
+    color: rgb(124, 126, 127);
+}
+.half-1 input {
+    padding: 8px 20px;
+    background-color: aquamarine;
+    outline: none;
+    color: rgb(181, 73, 73);
+    border: 2px solid rebeccapurple;
+    
+}
+.half-1 input:hover {
+    box-shadow: 5px 10px 30px white;
+    background-color: blueviolet;
+    color: white;
+    transition: all 0.5s ease-in 0.1s;
+    outline: none;
+}
+/*Frist page Start*/
+/*Second page Start*/
+.page-2 {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+. page-2 div {
+    width: 30px;
+    margin: 0 auto;
+}
+.page-2 img{
+    width: 50%;
+    margin: auto;
+}
+.page-2 img-2 {
+    padding-left: 150px;
+    margin: 20px auto;
+}    
+.page-2 .about-me h1 {
+    font-weight: normal;
+    color: rgb(0,0,0,0, 0.7) ;
+    font-size: 20px;
+    line-height: 15px;
+}
+.page-2 .about-me h3 {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 10px;
+}
+.page-2 .about-me p{
+    font-size: 15px;
+    color: rgb(0, 0, 0, 0.7);
+}
+.page-2 input {
+    font-size: 15px;
+    padding: 7px 15px;
+    outline: none;
+    color: rgb(43, 50, 50);
+}
+.page-2 input:hover{
+    background-color: blue;
+    color: bisque;
+    box-shadow: 5px 10px 30px rgb(154, 134, 134);
+    transition: all 0.5s ease-in 0.1s;
+    outline: none;
+}
+/*Second page End*/
+/*3rd page Start*/
+.page-3 {
+    width: 100%;
+    height: 450px;
+    margin: 0 auto;
+    text-align: center;
+}
+.my-offer h1 {
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 10px;
+}
+.my-offer p {
+    width: 500px;
+    color: rgb(0,0,0,0.7);
+    margin: 0 auto;
+}
+.page-3 .services {
+   width: 80%; 
+   margin: 0 auto;
+   margin-top: 30px;
+}
+. page-3 .serv-1 .serv-2 {
+    width: 100%;
+    overflow: hidden;
+}
+.page-3 .serv-1  div, .serv-2 div {
+    width: 32%;
+    float: left;
+    padding: 5px;
+    margin: 0 auto;
+}
+.services i {
+    font-size: 30px;
+    color: rgb(0, 0, 0,0.85);
+}
+.services h1 {
+    color: rgb(0, 0, 0,0.7);
+    font-size: 20px;
+}
+.services p{
+    color: rgb(131, 130, 128);
+}
+.serv-1 div:hover{
+    background-color: antiquewhite;
+}
+.serv-1 div:hover p{
+    color: rgb(213, 70, 17);
+}
+.serv-1 div:hover i{
+    color: rgb(213, 70, 17);
+}
+.serv-1 div:hover h1{
+    color: rgb(213, 70, 17);
+}
+.serv-2 div:hover{
+    background-color:  antiquewhite;
+}
+.serv-2 div:hover p{
+    color:  rgb(213, 70, 17);
+}
+.serv-2 div:hover i{
+    color:  rgb(213, 70, 17);
+}
+.serv-2 div:hover h1{
+    color:  rgb(213, 70, 17);
+}
+/*3rd page End*/
+/*4th page Start*/
+.page-4{
+    width: 100%;
+    height: 250px;
+    background-color: rgb(150, 197, 197);
+}
+.page-4 div {
+    float: left;
+    width: 15%;
+    margin: 0 auto;
+    position: relative;
+    top: 90px;
+    right: 200px;
+    
+}
+.page-4 h1{
+    font-size: 25x;
+    line-height: 0px;
+}
+.page-4 h1,.s-1  {
+    text-align: center;
+    color: white;
+}
+/*4th page End*/
+/*5th page protfilo Start*/
+.page-5 {
+     width: 100%;
+     box-sizing: border-box;
+}
+.page-5 .info-1 {
+    text-align: center;
+}
+.page-5 info-1, h1{
+    font-size: 30px;
+    color: rgb(0, 0, 0,0.89);
+}
+.page-5 info-1, p {
+    color: rgb(0, 0, 0,0.7);
+    margin-top: -15px;
+    margin-bottom: 40px;
+}
+.page-5 .img-p {
+    width: 60%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+/*5th page protfilo end */
+/*---- ResPONSICE-----*///
+@media(max-width:700px) {
+     
+    .nav-bar ul li {
+       display: block; 
+    }
+    .nav-bar{
+        position: absolute;
+         background-color: #f44336; 
+         height: 100vh;
+         width: 150px;
+         top: 0px;
+         right: -200px;
+         text-align: left;
+         z-index: 2;
+         transition: 1s;
+    }
+nav-bar .fa {
+    display: block;
+    color: #fff;
+    margin: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.nav-bar ul {
+     padding: 30px;
+}
+}
+
